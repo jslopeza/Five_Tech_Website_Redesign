@@ -47,6 +47,9 @@ body{
 .navbar-nav>li>a:hover{
     color: red !important;
 }
+.navbar-brand{
+    padding: 3px 15px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -72,7 +75,15 @@ body{
   min-height: 400px;
 }
 
-
+/* FOOTER
+-------------------------------------------------- */
+#footer{
+    background-color: black;
+}
+#footer>.container>p{
+    color:white;
+    padding: 2px 0;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
