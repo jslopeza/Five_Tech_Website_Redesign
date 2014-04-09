@@ -158,6 +158,12 @@ body {
 }
 
 
+/* Custom */
+
+.navbar-brand{
+    padding: 5px 15px;
+}
+
 
 
 
