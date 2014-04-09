@@ -41,7 +41,7 @@ body{
 .navbar-default{
     background-color: black;
 }
-nav>li>a>:hover{
+.navbar-nav>li>a>:hover{
     color: red;
 }
 
