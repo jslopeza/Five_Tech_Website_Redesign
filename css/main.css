@@ -38,7 +38,9 @@ body{
   right: 0;
   z-index: 10;
 }
-
+.navbar-default{
+    background-color: black;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
