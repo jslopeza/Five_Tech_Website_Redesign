@@ -41,7 +41,9 @@ body{
 .navbar-default{
     background-color: black;
 }
-
+nav>li>a>:hover{
+    color: red;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
