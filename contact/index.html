@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/contact.css">
         <script src="../js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
@@ -20,7 +21,8 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <!------------- STATIC NAVBAR -------------->   
+        <!------------- STATIC NAVBAR --------------> 
+
         <div class="navbar navbar-default navbar-static-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
@@ -45,6 +47,47 @@
             </div>
         </div>
         
+        <!------------- CONTENT -------------->
+
+        <div class="jumbotron">
+            <form action="contact.php" method="post">
+                <div class="control-group">
+                    <label class="control-label">First Name <div id="star">*</div></label>
+                    <input type="text" id="firstName" name="firstName" required><br>  
+                </div>
+            
+                <div class="control-group">
+                    <label class="control-label">Last Name <div id="star">*</div></label>
+                    <input type="text" id="lastName" name="lastName" required><br>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+    
+                <div class="control-group">
+                    <label class="contron-label">Email <div id="star">*</div></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="control-group">
+                    <label class="contron-label">Organization</label>
+                    <input type="text" id="organization" name="organization">
+                </div>
+    
+                <div class="control-group">
+                    <label class="contron-label">Description</label>
+                    <textarea id="desc" name="description"></textarea>
+                </div>
+    
+                <div class="control-group">
+                    <button class="btn btn-lg btn-success" type="submit" id="submit">Submit</button>
+                    <button class="btn_reset btn btn-lg btn-danger" type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+
         <!----------------- FOOTER ------------------>
 
         <div id="footer">
