@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/login.css">
         <script src="../js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
@@ -21,6 +22,7 @@
 
         <!-- Add your site or application content here -->
         <!------------- STATIC NAVBAR -------------->   
+        
         <div class="navbar navbar-default navbar-static-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
@@ -42,6 +44,19 @@
                         <li class="active"><a href="index.html">Login</a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+
+        <!------------- LOGIN -------------->
+
+        <div class="jumbotron">
+            <div class="container">
+                <form action="login.php" method="post" class="form-signin" role="form">
+                    <h2 class="form-signin-heading">Sign in</h2>
+                    <input type="email" class="form-control" name="username" placeholder="Username" required autofocus>
+                    <input type="password" class="form-control" name="password" placeholder="Password" required>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                </form>
             </div>
         </div>
         
