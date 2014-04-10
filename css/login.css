@@ -1,0 +1,24 @@
+.form-signin
+{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.form-signin .form-signin-heading, 
+.form-signin
+{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.jumbotron
+{
+	margin-bottom: 0px;
+}
+input
+{
+	margin: 8px 0;
+}
+button
+{
+	margin-top: 20px;
+}
