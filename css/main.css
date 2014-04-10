@@ -28,6 +28,7 @@
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
+
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
@@ -47,6 +48,33 @@
 }
 .navbar-brand{
     padding: 3px 15px;
+}
+
+/* Hide picture and display text if small screen */
+
+@media (min-width: 495px){
+    .logo_small
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 494px){
+    .logo
+    {
+        display: none;
+    }
+    .navbar-default .navbar-brand
+    {
+        color: rgb(194,14,14);
+        font-size: 25px;
+    }
+    .navbar-brand:hover, .navbar-brand:focus{
+        color: #fff !important;
+    }
+    .logo_small{
+        padding: 15px !important;
+    }
 }
 
 /* CUSTOMIZE THE CAROUSEL
