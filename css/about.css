@@ -37,6 +37,7 @@ h2
 .jumbotron
 {
 	margin-bottom: 0;
+	background-color: #fff;
 }
 
 .content>li, .certification >li
