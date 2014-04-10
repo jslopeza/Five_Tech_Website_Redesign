@@ -1,0 +1,56 @@
+.jumbotron{
+	margin-bottom: 0px;
+}
+h2
+{
+	text-align: center;
+}
+.contact
+{
+	text-align: center;
+}
+.right
+{
+	float: right;
+	display: inline-block;
+	font-size: 18px;
+}
+.description > li
+{
+	font-size: 18px;
+}
+.certification > li
+{
+	font-size: 25px;
+}
+.cert_caption
+{
+	font-size: 14px;
+}
+.skills > li
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 18px;
+	font-weight: normal;
+}
+.jumbotron
+{
+	margin-bottom: 0;
+}
+
+.content>li, .certification >li
+{
+	font-size: 20px;
+}
+.experience > li, .skills>li, .projects>li
+{
+	font-size: 20px;
+	list-style: square;
+	padding: 2px 0;
+}
+@media print{
+	.jumbotron{
+		padding: 0;
+	}
+}
